@@ -5,4 +5,8 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  test: {
+    // As regras do domain/ e dos services/ não precisam de navegador.
+    environment: 'node',
+  },
 })
