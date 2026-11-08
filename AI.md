@@ -6,10 +6,10 @@
 
 ## 2. Interações realizadas
 
-Exemplos representativos de pedidos (resumidos):
+Exemplos representativos (resumidos):
 
-- Ler o edital e o documento de contexto do grupo, planejar a parte web e dizer o que depende das outras partes.
-- Seguir as etapas e, no fim, montar um PDF explicando todo o código.
+- **Pedido:** ler o edital e o documento de contexto do grupo e planejar a parte web, apontando o que depende das outras partes. **Resposta:** um plano por etapas e a lista do que precisa ser combinado com o Edge (o formato dos dados da sala S01) e com o grupo (os limiares de conforto).
+- **Pedido:** montar a base do projeto e seguir as etapas, com o código explicado por escrito. **Resposta:** o projeto React + Vite + Tailwind configurado, o código de cada etapa com testes e um documento explicando cada arquivo.
 
 ## 3. Aplicação no projeto
 
