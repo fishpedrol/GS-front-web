@@ -1,5 +1,5 @@
 // Página provisória da fatia W1: só prova que React + Vite + Tailwind estão funcionando.
-// O painel de verdade (login fictício e os nove cards) entra na fatia W3 (docs/PLANO_WEB.md).
+// O painel de verdade (login fictício e os nove cards) entra na próxima etapa.
 function App() {
   return (
     <main className="min-h-screen bg-slate-50 px-4 py-12 text-slate-900">

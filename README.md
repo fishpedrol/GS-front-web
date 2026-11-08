@@ -33,7 +33,7 @@ O estudante entra com uma matrícula e senha **fictícias** (login só demonstra
 
 ## Estado
 
-Em desenvolvimento. O que está feito, com a evidência de cada item, está em [docs/IMPLEMENTATION_STATUS.md](docs/IMPLEMENTATION_STATUS.md); a ordem do trabalho, em [docs/FILA.md](docs/FILA.md).
+Em desenvolvimento. Pronta a base do projeto (React + Vite + Tailwind + Vitest, as camadas e a configuração do ambiente); o painel das salas, os filtros, os favoritos e listas e a leitura da S01 pela API vêm nas próximas etapas.
 
 ## Pré-requisitos
 
@@ -71,7 +71,7 @@ npm run dev                  # abre em http://localhost:5173
 ```text
 ├── README.md          esta ficha e as instruções
 ├── AI.md              como a IA foi usada no projeto
-├── docs/              o plano, a arquitetura, as regras, as decisões e o status
+├── CONTEXTO_PROJETO_GS_CITIZENTECH.md   a especificação comum do grupo
 └── web/               a aplicação React + Vite + Tailwind
     └── src/
         ├── components/   apresentação
@@ -86,4 +86,4 @@ npm run dev                  # abre em http://localhost:5173
 - O login é **fictício** e só visual; não protege nada.
 - Listas e favoritos ficam no navegador: outro navegador ou perfil não os vê, e limpar os dados do site os apaga.
 - A chave publicável do Supabase fica no navegador (é o modelo do Supabase); a permissão da tabela é restrita à telemetria simulada da S01.
-- Os limiares de conforto (temperatura, luz, ruído, ocupação) ainda são provisórios, até o grupo aprovar a tabela ([docs/REGRAS_E_LIMIARES.md](docs/REGRAS_E_LIMIARES.md)).
+- Os limiares de conforto (temperatura, luz, ruído, ocupação) ainda são provisórios, até o grupo aprovar a tabela.
