@@ -33,7 +33,7 @@ O estudante entra com uma matrícula e senha **fictícias** (login só demonstra
 
 ## Estado
 
-Em desenvolvimento. Pronta a base do projeto (React + Vite + Tailwind + Vitest, as camadas e a configuração do ambiente); o painel das salas, os filtros, os favoritos e listas e a leitura da S01 pela API vêm nas próximas etapas.
+Em desenvolvimento. Já funcionam: a entrada de demonstração; o painel com as nove salas (ocupação por mesa, mesas totalmente livres, temperatura, luz e ruído, situação e origem do dado); os filtros por intervalo; os atalhos Estudar sozinho, Trabalho em grupo e Gravar vídeo, com o ranking; e os favoritos e as listas, salvos no navegador. A S01 roda em **simulação local** até o Supabase e o Wokwi serem ligados (`VITE_TELEMETRIA_MODO=supabase`). Os limiares de conforto e os pesos do ranking ainda são provisórios.
 
 ## Pré-requisitos
 
