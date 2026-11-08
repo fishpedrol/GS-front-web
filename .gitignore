@@ -1,0 +1,20 @@
+# dependências e build
+node_modules/
+dist/
+coverage/
+
+# variáveis de ambiente (nunca no git; o modelo é o .env.example)
+.env
+.env.*
+!.env.example
+
+# o edital da FIAP fica só na máquina
+*.pdf
+
+# editor e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+.claude/settings.local.json
