@@ -1,0 +1,200 @@
+{
+  "aviso": "Dados fictícios de demonstração; a S01 vem do Wokwi",
+  "fonte": "web/src/data/salas.js (gerado com node a partir do código da web)",
+  "unidades": {
+    "temperaturaC": "°C",
+    "luz": "lux_estimado",
+    "ruidoDb": "dB_simulados",
+    "mesas": "pessoas sentadas em cada mesa (0 a 3)"
+  },
+  "lugaresPorMesa": 3,
+  "mesasPorPorte": {
+    "pequena": 2,
+    "media": 3,
+    "grande": 4
+  },
+  "totais": {
+    "salas": 9,
+    "mesas": 27,
+    "lugares": 81
+  },
+  "salas": [
+    {
+      "id": "S01",
+      "nome": "Sala de Estudo 01",
+      "porte": "media",
+      "quantidadeMesas": 3,
+      "capacidade": 9,
+      "origem": "iot",
+      "leitura": null
+    },
+    {
+      "id": "S02",
+      "nome": "Sala de Estudo 02",
+      "porte": "pequena",
+      "quantidadeMesas": 2,
+      "capacidade": 6,
+      "origem": "demo",
+      "leitura": {
+        "mesas": [
+          0,
+          2
+        ],
+        "temperaturaC": 22,
+        "luz": {
+          "valor": 410,
+          "unidade": "lux_estimado"
+        },
+        "ruidoDb": 42
+      }
+    },
+    {
+      "id": "S03",
+      "nome": "Sala de Estudo 03",
+      "porte": "pequena",
+      "quantidadeMesas": 2,
+      "capacidade": 6,
+      "origem": "demo",
+      "leitura": {
+        "mesas": [
+          3,
+          3
+        ],
+        "temperaturaC": 18,
+        "luz": {
+          "valor": 920,
+          "unidade": "lux_estimado"
+        },
+        "ruidoDb": 71
+      }
+    },
+    {
+      "id": "S04",
+      "nome": "Sala de Estudo 04",
+      "porte": "media",
+      "quantidadeMesas": 3,
+      "capacidade": 9,
+      "origem": "demo",
+      "leitura": {
+        "mesas": [
+          1,
+          1,
+          1
+        ],
+        "temperaturaC": 21,
+        "luz": {
+          "valor": 500,
+          "unidade": "lux_estimado"
+        },
+        "ruidoDb": 46
+      }
+    },
+    {
+      "id": "S05",
+      "nome": "Sala de Estudo 05",
+      "porte": "media",
+      "quantidadeMesas": 3,
+      "capacidade": 9,
+      "origem": "demo",
+      "leitura": {
+        "mesas": [
+          0,
+          3,
+          3
+        ],
+        "temperaturaC": 24,
+        "luz": {
+          "valor": 350,
+          "unidade": "lux_estimado"
+        },
+        "ruidoDb": 57
+      }
+    },
+    {
+      "id": "S06",
+      "nome": "Sala de Estudo 06",
+      "porte": "media",
+      "quantidadeMesas": 3,
+      "capacidade": 9,
+      "origem": "demo",
+      "leitura": {
+        "mesas": [
+          2,
+          2,
+          1
+        ],
+        "temperaturaC": 19,
+        "luz": {
+          "valor": 180,
+          "unidade": "lux_estimado"
+        },
+        "ruidoDb": 61
+      }
+    },
+    {
+      "id": "S07",
+      "nome": "Sala de Estudo 07",
+      "porte": "media",
+      "quantidadeMesas": 3,
+      "capacidade": 9,
+      "origem": "demo",
+      "leitura": {
+        "mesas": [
+          0,
+          0,
+          1
+        ],
+        "temperaturaC": 23,
+        "luz": {
+          "valor": 450,
+          "unidade": "lux_estimado"
+        },
+        "ruidoDb": 39
+      }
+    },
+    {
+      "id": "S08",
+      "nome": "Sala de Estudo 08",
+      "porte": "grande",
+      "quantidadeMesas": 4,
+      "capacidade": 12,
+      "origem": "demo",
+      "leitura": {
+        "mesas": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "temperaturaC": 25,
+        "luz": {
+          "valor": 600,
+          "unidade": "lux_estimado"
+        },
+        "ruidoDb": 53
+      }
+    },
+    {
+      "id": "S09",
+      "nome": "Sala de Estudo 09",
+      "porte": "grande",
+      "quantidadeMesas": 4,
+      "capacidade": 12,
+      "origem": "demo",
+      "leitura": {
+        "mesas": [
+          3,
+          3,
+          3,
+          2
+        ],
+        "temperaturaC": 28,
+        "luz": {
+          "valor": 760,
+          "unidade": "lux_estimado"
+        },
+        "ruidoDb": 68
+      }
+    }
+  ]
+}
