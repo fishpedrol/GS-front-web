@@ -18,3 +18,14 @@ coverage/
 Thumbs.db
 *.log
 .claude/settings.local.json
+
+# arquivos pessoais e de ferramentas: ficam só no PC
+CLAUDE.md
+AGENTS.md
+.impeccable/
+materiais-aula/
+docs/DECISIONS.md
+docs/NEXT_SESSION.md
+docs/PERGUNTAS.md
+docs/perguntas_dono.md
+docs/MENSAGEM_*.md
